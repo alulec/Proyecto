@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Primeros ejercicios con javascript</h1>
+    <br>
+    <script>
+        alert("Script dentro del HTML")
+    </script>
+    <script>
+        function mensaje(){
+            alert("Meter JS dentro del HTML es una mala practica");
+        }
+    </script>
+    <button onclick="mensaje()">
+        puchame
+    </button>
+    <button onclick="mensajeExterno()">
+        mensaje
+    </button>
+    <button onclick="saludo()">
+        saludo
+    </button>
+    <button onclick="despedida()">
+        despedida
+    </button>
+    <script src="Scripts/script01.js"></script>
+    <a href="index.html">Regresar</a>
+</body>
+</html>
